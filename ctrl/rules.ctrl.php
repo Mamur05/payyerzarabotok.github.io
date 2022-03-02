@@ -1,0 +1,2 @@
+<?php
+$gen->genPage('rules');
