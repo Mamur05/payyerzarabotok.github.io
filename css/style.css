@@ -1,0 +1,68 @@
+body {
+	background: #eeeeee;
+}
+
+.brand-logo {
+	margin-left: 30px;
+}
+
+.auth-modal {
+	width: 35%;
+}
+
+@media only screen and (max-width: 992px) {
+	.auth-modal {
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	.admin {
+		padding-left: 290px;
+	}
+
+	.admin-menu {
+		background-color: #eeeeee;
+		margin-top: 79px;
+		width: 290px;
+		box-shadow: none;
+		border: none;
+	}
+
+	.admin-menu li > a {
+		color: rgba(0,0,0,0.66);
+		font-weight: 600;
+	}
+}
+
+.side-nav .divider {
+	margin: 8px 0 8px 0;
+}
+
+.text-100 {
+	font-weight: 100;
+}
+
+.bdrs-10 {
+	border-radius: 10px;
+}
+
+.banner-edit {
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+}
+
+.banner-edit:hover {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.banner-edit.b468 {
+	height: 80px;
+	line-height: 80px;
+}
+
+.banner-edit.b240 {
+	height: 380px;
+	line-height: 380px;
+}
