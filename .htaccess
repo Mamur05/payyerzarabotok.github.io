@@ -1,0 +1,14 @@
+DirectoryIndex index.php
+php_flag display_errors on
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php [L]
+
+deny from 80.91.192.157
+deny from 87.236.19.188
+deny from 134.249.35.23
+deny from 217.118.81.20
+deny from 178.46.27.156
+deny from 201.51.197.209
+deny from 178.217.122.86
+deny from 1.20.203.83
